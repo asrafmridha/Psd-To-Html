@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 60px;
+    color: white;
+    text-align: center;
+    background-color: #23232e;   
+}
+ h2{
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 30px;
+}
+header p{
+    margin-bottom: 100px;
+    
+}
+header img{
+    width: 8%;
+}
+header span{
+
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+   
+}
+.whatido {
+    text-align: center;
+    background: url('images/background.png');
+    overflow: hidden;
+    padding: 20px 25%;
+}
+
+.whatido .row .col1,
+.whatido .row .col2,
+.whatido .row .col3
+{
+    text-align: left;
+    float: left;
+    width: 31.33%;
+     margin: 1%;
+     padding-bottom: 30px;
+}
+.mywork{
+    background-color: #23232e;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 25%;
+    color: white;
+    
+}
+.mywork a{
+       color: white;
+       margin: 10px;
+    text-decoration: none;
+   
+}
+.mywork .menu{
+
+    margin-bottom: 20px;
+   
+}
+.mywork .myworkcol .myworkrow1{
+
+    
+    float: left;
+    width: 31.33%;
+     margin: 1%;
+}
+.mywork .myworkcol .myworkrow1 img{
+
+    width: 100%;
+ 
+}
+.mywork .myworkcol .myworkrow1 h4{
+
+    font-size: 12px;
+}
+.mywork .myworkcol .myworkrow1 h6{
+    font-size: 8px;
+}
+
+
+.mywork button{
+        background-color: #008CBA;
+       border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 20px 15px;
+        cursor: pointer;
+      }
+.photograpy{
+
+    background: url('/images/background.png');
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 25%;
+    color: black;
+}
+/* .photograpy .photograpytop{
+
+    text-align: center;
+    padding: 20px 25%;
+} */
+
+.photograpy .col1 .row1{
+
+    float: left;
+    width: 31.33%;
+     margin: 1%;
+   
+}
+.photograpy .col1 .row1 img{
+    width: 100%; 
+} 
+.photograpy button{
+
+    background-color: #008CBA;
+       border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 50px 15px;
+        cursor: pointer; 
+}
+
+.subscribe{
+       padding: 150px;
+    background-color:#23232e;
+}
+.subscribe .borderimg{
+
+    text-align: center;
+   
+}
+
+.subscribe .borderimg p{
+      margin: 35px;
+      color: white;
+}
+.subscribe button{
+
+    background-color: #008CBA;
+    border: none;
+     color: white;
+     padding: 12px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 10px;
+     /* margin: 50px 15px; */
+     cursor: pointer; 
+}
+.subscribe .search{
+
+    text-align: center;
+   
+}
+.subscribe .search input{
+
+    padding: 8px;
+    
+}
+.footer{
+
+    background: url('images/background.png');
+    margin: 100px;
+    text-align: center;
+}
+.footer .icon i{
+
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+
+}
+.footer .copyright{
+
+    font-size: 20px;
+}
+
